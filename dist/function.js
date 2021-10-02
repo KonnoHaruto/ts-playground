@@ -37,7 +37,7 @@ console.log(greet3('晴都'));
  * /*/
 function log(message, uId) {
     let time = new Date().toLocaleTimeString();
-    console.log(time, message, uId || 'Not signed in');
+    console.log(time, message, uId || 'Not signed in'); //選択的代入
 }
 log('Page loaded');
 log('User signed in', 'da763be');
